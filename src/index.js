@@ -22,9 +22,11 @@ import selectOptions from './select-options';
 import textOptions from './text-options';
 import timeOptions from './time-options';
 import weekOptions from './week-options';
+import context from './context';
 
 const coreModules = [
   autoScroll,
+  context,
   click,
   colorOptions,
   dateOptions,
